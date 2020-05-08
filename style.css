@@ -1,0 +1,362 @@
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.headertop {
+  background-color: #316dc3;
+  height: 70px;
+  min-width: 200px;
+  max-width: 2000px;
+  max-height: 150px;
+  z-index: 999;
+}
+
+#cornerbtns {
+  display: inline;
+}
+
+li.header {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  display: inline;
+}
+
+/* Contact icons alignment */
+
+span.icon {
+  margin-left: 2em;
+}
+
+li.headercenter {
+  margin-left: 250px;
+  margin-right: 117px;
+  color: floralwhite;
+  display: inline;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.topheaderbtn {
+  height: 35px;
+  border-color: lightgreen;
+  display: inline-flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+img.header {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#btn_home {
+  margin-left: 50em;
+  margin-right: auto;
+  border-radius: 30%;
+  width: 75px;
+  height: 35px;
+}
+
+ul {
+  display: inline;
+}
+
+/* Navbar container */
+
+nav.navigation {
+  position: sticky !important;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar {
+  background-color: #f9f9f9;
+  font-family: Arial;
+  padding: 14px 16px;
+  min-height: 120px;
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+}
+
+/* Links inside the navbar */
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+
+.dropdown {
+  float: right;
+  margin-top: 2em;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+/* Dropdown button */
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 8px 16px;
+  background-color: inherit;
+  font-family: sans-serif;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+  cursor: pointer;
+}
+
+/* Add a red background color to navbar links on hover */
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #316dc3;
+}
+
+/* Dropdown content (hidden by default) */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 8px;
+  font-family: serif;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+
+.dropdown-content a:hover {
+  background-color: #316dc3;
+  color: #f9f9f9;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* home button decoration */
+
+.homebtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #316dc3;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+  border-radius: 43%;
+  cursor: pointer;
+}
+
+/* Donation button tweaks */
+
+.dropbtnlast {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+  cursor: pointer;
+  margin-right: 3em;
+}
+
+.dropbtnlast:hover {
+  background-color: #316dc3;
+}
+
+/* text beneath slider */
+
+div.updatetext {
+  margin-top: 1em;
+  background-color: #316dc3;
+  height: 25px;
+  width: 1250px;
+  margin-left: 15em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+span.updatetext {
+  color: greenyellow;
+}
+
+p.updatetext {
+  color: white;
+}
+
+a.updatetext {
+  color: blue;
+  text-decoration: none;
+}
+
+a.updatetext:hover {
+  color: blue;
+}
+
+/* saylani Intro */
+
+div.mainintro {
+  margin-top: 3em;
+}
+
+div.mainintroimg {
+  text-align: center;
+}
+
+h1.mainintro {
+  text-align: center;
+  font-family: serif;
+}
+
+span.mainintro {
+  color: #316dc3;
+}
+
+span.mainintro1 {
+  color: #427900;
+}
+
+p.introimgdeco {
+  color: #427900;
+  font-weight: 900;
+}
+
+p.introtext {
+  margin-left: 15em;
+  margin-right: 15em;
+  color: slategrey
+}
+
+/* DISTRIBUTION CONTAINER */
+
+div.contributioncontainer {
+  background-color: rgba(36, 79, 242, 0.8);
+  margin-top: 5em;
+  padding-top: 1em;
+  width: 1800px;
+  height: 300px;
+  min-width: 500px;
+}
+li.contributionfood {
+  
+  
+  padding-top: 5em;
+}
+
+img.contributionfood {
+  vertical-align: middle;
+}
+
+h2.contributionfood {
+  color: #ffffff;
+  font-size: 43.2px;
+  font-family: serif;
+}
+li#first{
+  display: inline-block;
+  padding-right: 5em;
+  padding-left: 5em;
+  text-align: center;
+}
+li#second{
+  display: inline-block;
+  padding-right: 3em;
+  padding-left: 2em;
+  text-align: center;
+ }
+li#third{
+  display: inline-block;
+  padding-right: 3em;
+  padding-left: 2em;
+  text-align: center;
+}
+li#fourth{
+  display: inline-block;
+  padding-right: 3em;
+  text-align: center;
+  padding-left: 2em;
+}
+
+div.SERVICES{
+  text-align: center;
+  font-family: serif;
+  padding-top: 7em;
+  margin-right: 15em;
+}
+
+span.services{
+  color: #316dc3;
+}
+
+span.services1{
+  color: #427900;
+}
+
+
+li.onlinesadqah{
+  box-sizing: border-box;
+  background-color: #ddd;
+  width: 250px;
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 12em;
+  padding-top: 10px;
+  margin-left: 21em;
+}
+li.welfare{
+  box-sizing: border-box;
+  background-color: #ddd;
+  width: 250px;
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 12em;
+  padding-top: 10px;
+}
+
+li.medical{
+  box-sizing: border-box;
+  background-color: #ddd;
+  width: 250px;
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 12em;
+  padding-top: 10px;
+}
